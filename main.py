@@ -15,3 +15,10 @@ if __name__ == '__main__':
 def func():
     pass
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+telefon={"edmund":123654234,"zuzia":987786543,"adam":567934008}
+#for imie in telefon
+a=(1,2,3,0)
+print(a)
+print(sorted(a))
+a=0.3333333333333333*3
+print(a)
