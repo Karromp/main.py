@@ -10,3 +10,11 @@ def wielo(x,lista):
         w*= x
         wielomian+=w*listarg[i]
     return wielomian
+def bintodec (s):
+    p=len(s)-1
+    w=0
+    for i in s:
+        if i=='1':
+            w=w+2**p
+        p-=1
+    return w
