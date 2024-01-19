@@ -28,3 +28,4 @@ def rezultat(wynik,lista):
 
 print(rzut())
 
+napisz program obliczjacy pole trojkata ktorego wierzcholkami sa niewspolliniowe pukty a(xa,yb) b(xb,yb) c (xc,yc) mozesz wykorzystac wzor na pole abc
