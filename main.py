@@ -22,3 +22,22 @@ print(a)
 print(sorted(a))
 a=0.3333333333333333*3
 print(a)
+from random import randint
+
+print("Zgadywanie liczb z przedziału [0; 100]")
+szukana = randint(0,100)
+proba = 1
+liczba = 0
+
+while liczba != szukana:
+    print("\nPróba ", proba, ": ", end="")
+    liczba = int(input())
+    if liczba < szukana:
+        print("Za mała")
+    else:
+        if liczba > szukana:
+            print("Za duża")
+        else:
+            print("Brawo! Udało ci się za", proba, "razem")
+    proba = proba + 1
+    #dana jest 2wymiarowa tablica o rozmiarze o2x04 o wartosciach 
